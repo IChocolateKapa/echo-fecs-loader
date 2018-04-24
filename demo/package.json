@@ -1,0 +1,26 @@
+{
+  "name": "fecsLoaderTest",
+  "version": "1.0.0",
+  "description": "fecs loader test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install && webpack"
+  },
+  "keywords": [
+    "webpack fecs-loader"
+  ],
+  "author": "zhangzhiqiang",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^2.0.12"
+  },
+  "dependencies": {
+    "css-loader": "*",
+    "fecs-loader": "*",
+    "less-loader": "*",
+    "style-loader": "*",
+    "webpack": "*",
+    "vue-loader": "*",
+    "vue-template-compiler": "*"
+  }
+}
