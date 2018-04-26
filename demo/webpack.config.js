@@ -51,7 +51,7 @@ module.exports = {
                         loader: path.join(__dirname, '../index.js'),
                         // loader: 'fecs-loader',
                         options: {
-                            failOnError: true,
+                            // failOnError: true,
                             // failOnWarning: true,
                             exclude: './index2.js'
                         }

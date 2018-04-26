@@ -3,14 +3,14 @@
  * @author zhangzhiqiang<zhiqiangzhang37@gmail.com>
  */
 
-var fecs = require('fecs');
+var fecs = require('echo-fecs');
 var vfs = require('vinyl-fs');
-var cssChecker = require('fecs/lib/css/checker');
-var jsChecker = require('fecs/lib/js/checker');
-var lessChecker = require('fecs/lib/less/checker');
-var htmlChecker = require('fecs/lib/html/checker');
-var fecsLog = require('fecs/lib/log');
-var fecsReporter = require('fecs/lib/reporter');
+var cssChecker = require('echo-fecs/lib/css/checker');
+var jsChecker = require('echo-fecs/lib/js/checker');
+var lessChecker = require('echo-fecs/lib/less/checker');
+var htmlChecker = require('echo-fecs/lib/html/checker');
+var fecsLog = require('echo-fecs/lib/log');
+var fecsReporter = require('echo-fecs/lib/reporter');
 var mapStream  = require('map-stream');
 var loaderUtils = require('loader-utils');
 var assign = require('object-assign');

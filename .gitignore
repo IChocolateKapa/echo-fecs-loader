@@ -7,4 +7,5 @@ output
 node_modules
 .idea
 fecs.*
+echo-fecs-working
 

@@ -1,21 +1,29 @@
 {
-  "name": "echo-fecs-loader",
-  "version": "3.0.0",
-  "description": "echo upgrade fecs-loader",
-  "main": "index.js",
-  "scripts": {
-    "test": "fecs ./"
-  },
-  "keywords": [
-    "fecs-loader"
-  ],
-  "license": "ISC",
-  "dependencies": {
-    "fecs": "*",
-    "loader-utils": "^0.2.13",
-    "vinyl-fs": "^2.4.2",
-    "map-stream": "^0.0.6",
-    "object-assign": "^4.1.0",
-    "resolve-glob": "^0.1.8"
-  }
+    "name": "echo-fecs-loader",
+    "version": "7.0.1",
+    "description": "echo upgrade fecs-loader",
+    "main": "index.js",
+    "scripts": {
+        "test": "fecs ./"
+    },
+    "keywords": [
+        "fecs-loader"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IChocolateKapa/echo-fecs-loader.git"
+    },
+    "bugs": {
+        "url": "https://github.com/IChocolateKapa/echo-fecs-loader/issues"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "loader-utils": "^0.2.13",
+        "vinyl-fs": "^2.4.2",
+        "map-stream": "^0.0.6",
+        "object-assign": "^4.1.0",
+        "resolve-glob": "^0.1.8",
+        "echo-fecs": "^2.0.0"
+    },
+    "devDependencies": {}
 }
